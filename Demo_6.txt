@@ -1,0 +1,317 @@
+An indentifier/variable:
+================
+
+Q1)What is the difference between an identifer/variable?
+=======================================
+1+2=3
+2+1=3
+
+It is a name inside the Python Program/Python Script/Python module.
+
+
+Rule_1:
+=====
+          Only allow characters are AtoZ/atoz/0to9 and specail character _.
+
+
+Specail characters in Python:
+====================
+_,space,$,@,#,.
+
+
+_ is only allowed as specail character
+
+
+Ex1:
+===
+import time 
+ABC=19000 
+print("The value is:",ABC)
+print()
+print("The address is:",id(ABC))
+print()
+print("The data type is:",type(ABC))
+print()
+time.sleep(3)
+print("End of an application")
+
+
+Ex2:
+===
+import time 
+abc=19000 
+print("The value is:",abc)
+print()
+print("The address is:",id(abc))
+print()
+print("The data type is:",type(abc))
+print()
+time.sleep(3)
+print("End of an application")
+
+
+Ex3:
+===
+import time 
+ABCabc=19000 
+print("The value is:",ABCabc)
+print()
+print("The address is:",id(ABCabc))
+print()
+print("The data type is:",type(ABCabc))
+print()
+time.sleep(3)
+print("End of an application")
+
+
+Ex4:
+===
+import time 
+ABCabc12345=19000 
+print("The value is:",ABCabc12345)
+print()
+print("The address is:",id(ABCabc12345))
+print()
+print("The data type is:",type(ABCabc12345))
+print()
+time.sleep(3)
+print("End of an application")
+
+
+Ex5:
+===
+import time 
+ABC_abc_12345=19000 
+print("The value is:",ABC_abc_12345)
+print()
+print("The address is:",id(ABC_abc_12345))
+print()
+print("The data type is:",type(ABC_abc_12345))
+print()
+time.sleep(3)
+print("End of an application")
+
+
+Ex6:
+===
+import time 
+_=21000 
+print("The value is:",_)
+print()
+print("The address is:",id(_))
+print()
+print("The data type is:",type(_))
+print()
+time.sleep(2)
+print("End of an application")
+
+
+Ex7:
+===
+import time 
+______________________________________________________=21000 
+print("The value is:",______________________________________________________)
+print()
+print("The address is:",id(______________________________________________________))
+print()
+print("The data type is:",type(______________________________________________________))
+print()
+time.sleep(2)
+print("End of an application")
+
+
+Ex8:
+===
+import time 
+_ _=1200 
+print("The value is:",_ _)
+print()
+print("The address is:",id(_ _))
+print()
+print("The data type is:",type(_ _))
+print()
+time.sleep(2)
+print("End of an application")
+
+
+Ex9:
+===
+import time 
+ABC_abc_$=1200 
+print("The value is:",ABC_abc_$)
+print()
+print("The address is:",id(ABC_abc_$)))
+print()
+print("The data type is:",type(ABC_abc_$))
+print()
+time.sleep(2)
+print("End of an application")
+
+
+Ex10:
+====
+import time 
+$=1200 
+print("The value is:",$)
+print()
+print("The address is:",id($)))
+print()
+print("The data type is:",type($))
+print()
+time.sleep(2)
+print("End of an application")
+
+
+Ex11:
+===
+import time 
+ ABC_abc=1000 
+print("The value is:", ABC_abc)
+print()
+print("The address is:",id( ABC_abc))
+print()
+print("The data type is:",type( ABC_abc))
+print()
+time.sleep(2)
+print("End of an application")
+
+
+Ex12:
+====
+import time 
+    ABC_abc=1000 
+print("The value is:",    ABC_abc)
+print()
+print("The address is:",id(   ABC_abc))
+print()
+print("The data type is:",type(   ABC_abc))
+print()
+time.sleep(2)
+print("End of an application")
+
+
+Rule_2:
+=====
+An identifier/variable_name should not start with number from 0to9.
+
+
+Ex1:
+===
+import time 
+12345_ABC_abc=190 
+print("The value is:",12345_ABC_abc)
+print()
+print("The address is:",id(12345_ABC_abc))
+print()
+print("The data type is:",type(12345_ABC_abc))
+print()
+time.sleep(2)
+print("End of an application")
+
+
+Ex2:
+===
+import time 
+A12345_ABC_abc=190 
+print("The value is:",A12345_ABC_abc)
+print()
+print("The address is:",id(A12345_ABC_abc))
+print()
+print("The data type is:",type(A12345_ABC_abc))
+print()
+time.sleep(2)
+print("End of an application")
+
+
+Ex3:
+===
+import time 
+a12345_ABC_abc=190 
+print("The value is:",a12345_ABC_abc)
+print()
+print("The address is:",id(a12345_ABC_abc))
+print()
+print("The data type is:",type(a12345_ABC_abc))
+print()
+time.sleep(2)
+print("End of an application")
+
+
+Ex4:
+===
+import time 
+_12345_ABC_abc=190 
+print("The value is:",_12345_ABC_abc)
+print()
+print("The address is:",id(_12345_ABC_abc))
+print()
+print("The data type is:",type(_12345_ABC_abc))
+print()
+time.sleep(2)
+print("End of an application")
+
+Rule_3:
+=====
+       There is no length limit for an identifier/variable.
+
+
+Ex1:
+===
+import time 
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=23000 
+print("The value is:",AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA)
+print()
+print("The address is:",id(AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA))
+print()
+print("The data type is:",type(AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA))
+print()
+time.sleep(2)
+print("End of an application")
+
+SDLC --->Software Development Life cycle:
+=============================
+->Development Phase
+->Testing Phase
+
+
+Ex2:
+===
+import time 
+A=23000 
+print("The value is:",A)
+print()
+print("The address is:",id(A))
+print()
+print("The data type is:",type(A))
+print()
+time.sleep(2)
+print("End of an application")
+
+
+Ex3:
+===
+import time 
+age=21 
+print("The age is:",age)
+print()
+print("The address is:",id(age))
+print()
+print("The data type is:",type(age))
+print()
+time.sleep(3)
+print("End of an application")
+
+
+Ex3:
+====
+import time 
+Emp_age=21 
+print("The age is:",Emp_age)
+print()
+print("The address is:",id(Emp_age))
+print()
+print("The data type is:",type(Emp_age))
+print()
+time.sleep(3)
+print("End of an application")
+
